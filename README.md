@@ -10,6 +10,33 @@ The Airbnb Clone Project is a comprehensive full-stack web application that repl
 - Understand scalable backend systems and relational databases
 - Practice implementing API security and CI/CD pipelines
 - Collaborate using Git, GitHub, and team-based practices
+## CI/CD Pipeline
+
+The Airbnb Clone project uses a Continuous Integration and Continuous Deployment (CI/CD) pipeline to ensure efficient, automated delivery of code changes.
+
+### 🛠 Tools Used
+
+- **GitHub Actions**: Automates testing, linting, and deployment workflows on every push and pull request.
+- **Docker**: Used to containerize the application for consistent development, testing, and deployment across environments.
+
+### 🔄 Workflow Overview
+
+1. **Code Push**
+   - Developer pushes code to GitHub
+2. **Automated Tests**
+   - GitHub Actions runs backend tests (e.g., Django tests)
+3. **Linting**
+   - Code quality is checked using tools like `flake8` or `black`
+4. **Docker Build**
+   - Docker image is built and tagged with version
+5. **Deployment**
+   - Successful builds are deployed to a staging or production server (e.g., via Heroku, AWS, or another platform)
+
+### ✅ Benefits
+
+- Catches errors early
+- Ensures consistent code quality
+- Enables fast and safe deployments
 
 ## API Security
 
