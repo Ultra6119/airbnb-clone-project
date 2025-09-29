@@ -10,6 +10,37 @@ The Airbnb Clone Project is a comprehensive full-stack web application that repl
 - Understand scalable backend systems and relational databases
 - Practice implementing API security and CI/CD pipelines
 - Collaborate using Git, GitHub, and team-based practices
+## Feature Breakdown
+
+This project includes the following key features that replicate core functionality of the Airbnb platform:
+
+- **User Registration and Authentication**
+  - Secure signup, login, and logout functionality
+  - Password hashing and user session management
+
+- **Listing Management**
+  - Hosts can create, update, and delete property listings
+  - Listings include title, description, photos, location, and price
+
+- **Search and Filtering**
+  - Users can search listings by location, date, and price range
+  - Filter options for amenities, availability, and ratings
+
+- **Booking System**
+  - Users can book available listings for specific dates
+  - Conflict-free date management and validation
+
+- **Review and Ratings**
+  - Guests can leave reviews and rate their stay
+  - Hosts can view feedback for their listings
+
+- **Admin Panel**
+  - Admin users can manage users, listings, and bookings
+  - Backend moderation tools for platform management
+
+- **API Integration (GraphQL)**
+  - Data is served via a GraphQL API
+  - Efficient querying for frontend consu
 
 ## Technology Stack
 
