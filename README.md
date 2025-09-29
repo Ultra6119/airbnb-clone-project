@@ -11,7 +11,7 @@ The Airbnb Clone Project is a comprehensive full-stack web application that repl
 - Practice implementing API security and CI/CD pipelines
 - Collaborate using Git, GitHub, and team-based practices
 
-## Tech Stack
+## Technology Stack
 
 - **Backend Framework**: Django
 - **Database**: MySQL
