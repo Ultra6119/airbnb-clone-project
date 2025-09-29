@@ -10,6 +10,35 @@ The Airbnb Clone Project is a comprehensive full-stack web application that repl
 - Understand scalable backend systems and relational databases
 - Practice implementing API security and CI/CD pipelines
 - Collaborate using Git, GitHub, and team-based practices
+
+## API Security
+
+To protect user data and ensure secure interactions within the Airbnb Clone platform, the following API security measures will be implemented:
+
+- **Authentication**
+  - Token-based authentication (e.g., JWT) to secure endpoints
+  - Login required for accessing user-specific data or actions
+
+- **Authorization**
+  - Role-based access control to limit access to certain resources (e.g., admin vs. regular user)
+  - Only listing owners can modify or delete their listings
+
+- **Input Validation & Sanitization**
+  - All incoming data is validated and sanitized to prevent SQL injection and XSS attacks
+  - Strict schema validation using Django serializers and GraphQL schemas
+
+- **Rate Limiting**
+  - Protects the API from brute-force and DoS attacks by limiting request rates per IP
+
+- **HTTPS Enforcement**
+  - Ensures all communication between client and server is encrypted in production
+
+- **Error Handling & Logging**
+  - Secure error messages (no sensitive data exposed)
+  - Logging of failed login attempts and suspicious activities
+
+These measures help create a secure and resilient API that protects user information and maintains the integrity of the system.
+
 ## Feature Breakdown
 
 This project includes the following key features that replicate core functionality of the Airbnb platform:
